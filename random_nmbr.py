@@ -7,8 +7,8 @@ while True:
     if (userChoice == "quit" or userChoice == "Quit" or userChoice == "QUIT"):
         print("Thank you for playing")
         break
-    userChoice = int(userChoice)
 
+    userChoice = int(userChoice)
     if (userChoice == target):
         print("Congratulations, you guessed correctly!")
     elif (userChoice < target):
